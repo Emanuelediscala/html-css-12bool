@@ -24,6 +24,7 @@
     flex-basis: 0;
     max-width: 100%;
 }
+/*-------------MOBILE--------------  */
 .col-sm-1 {    flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);  }
 .col-sm-2 {    flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);  }
 .col-sm-3 {    flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);  }
@@ -36,6 +37,8 @@
 .col-sm-10 {   flex-basis: calc((100% / 12) * 10); max-width: calc((100% / 12) *  10);  }
 .col-sm-11 {   flex-basis: calc((100% / 12) * 11); max-width: calc((100% / 12) *  11);  }
 .col-sm-12 {   flex-basis: calc((100% / 12) * 12); max-width: calc((100% / 12) *  12);  }
+
+/* OFFSET  */
 
 .col-sm-offset-1 { margin-left: calc((100% / 12) * 1); }
 .col-sm-offset-2 { margin-left: calc((100% / 12) * 2); }
